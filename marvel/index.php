@@ -101,6 +101,7 @@
 	"Los gráficos desarrollados en las películas fueron muy expectaculares que casi a nadie se le había ocurrido y las diferentes maneras de mostrarlos era realmente destacable.",
 	"El doblaje fue otro de las causas de su gran éxito ya que los que interpretaban a los personajes era tan realista que emocionaba a las personas."	
 	);
+	$links = (object)["link1"=>"https://www.facebook.com/MarvelLatinoamerica", "link2"=>"https://twitter.com/Marvel", "link3"=>"https://www.instagram.com/marvellatam/"];
 	//ENVIAR CORREO
 	/*
 	<div class="form-field">
@@ -121,6 +122,8 @@
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="es"> <!--<![endif]-->
+<!-- HEAD 
+   ================================================== -->
 <head>
 
    <!--- NECESIDADES BASICAS DE LA PAGINA
@@ -208,9 +211,9 @@
    	</div> <!-- /intro-content --> 
 
    	<ul class="intro-social">        
-         <li><a href="https://www.facebook.com/MarvelLatinoamerica"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="https://twitter.com/Marvel"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="https://www.instagram.com/marvellatam/"><i class="fa fa-instagram"></i></a></li>
+         <li><a href=<?php echo $links->link1;?>><i class="fa fa-facebook"></i></a></li>
+         <li><a href=<?php echo $links->link2;?>><i class="fa fa-twitter"></i></a></li>
+         <li><a href=<?php echo $links->link3;?>><i class="fa fa-instagram"></i></a></li>
       </ul> <!-- /intro-social -->      	
 
    </section> <!-- /INTRODUCCION -->
@@ -1244,9 +1247,9 @@
      		<div class="col-six tab-full pull-right social">
 
      			<ul class="footer-social">        
-			      <li><a href="https://www.facebook.com/MarvelLatinoamerica"><i class="fa fa-facebook"></i></a></li>
-			      <li><a href="https://twitter.com/Marvel"><i class="fa fa-twitter"></i></a></li>
-			      <li><a href="https://www.instagram.com/marvellatam/"><i class="fa fa-instagram"></i></a></li>
+			      <li><a href=<a href=<?php echo $links->link1;?>><i class="fa fa-facebook"></i></a></li>
+			      <li><a href=<a href=<?php echo $links->link2;?>><i class="fa fa-twitter"></i></a></li>
+			      <li><a href=<a href=<?php echo $links->link3;?>><i class="fa fa-instagram"></i></a></li>
 			   </ul> 
 	      		
 	      </div>
