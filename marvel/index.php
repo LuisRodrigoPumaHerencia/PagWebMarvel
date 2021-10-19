@@ -65,7 +65,7 @@
 	);
 	$destacados = "<h5>DESTACADOS</h5>
 	<h1>PELÍCULAS MAS DESTACADAS DE LOS VENGADORES</h1>";
-	$FECHA = date('d/m/y');
+	
 	$PELICULASDESTACADASATRAS = array(
 	"  <h4>Capitana Marvel</h4>		      
 	<p>Recaudación: $1,128,274,794</p>
@@ -93,6 +93,7 @@
  	"
 	);
 	$numeros = array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21);
+	$links = (object)["link1"=>"https://www.facebook.com/MarvelLatinoamerica", "link2"=>"https://twitter.com/Marvel", "link3"=>"https://www.instagram.com/marvellatam/"];
 	$estrategias = array (
 	"Marvel buscaba ganar popularidad y aprobecho que los comics de Stan Lee estaban ganando popularidad y decidieron producir películas de los personajes de dichos comics.",
 	"La perfecta elaboracón de los tráilers también les ayudó bastante ya que gracias a ellos las personas quedaban ansiosas de ver la película.",
@@ -101,7 +102,7 @@
 	"Los gráficos desarrollados en las películas fueron muy expectaculares que casi a nadie se le había ocurrido y las diferentes maneras de mostrarlos era realmente destacable.",
 	"El doblaje fue otro de las causas de su gran éxito ya que los que interpretaban a los personajes era tan realista que emocionaba a las personas."	
 	);
-	$links = (object)["link1"=>"https://www.facebook.com/MarvelLatinoamerica", "link2"=>"https://twitter.com/Marvel", "link3"=>"https://www.instagram.com/marvellatam/"];
+	$FECHA = date('d/m/y');
 	//ENVIAR CORREO
 	/*
 	<div class="form-field">
