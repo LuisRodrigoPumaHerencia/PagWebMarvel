@@ -92,6 +92,15 @@
 	<p>Luego de las aventuras en solitario de Iron Man, Hulk, Capitán América y Thor, y luego de escucha r en cada una sobre la Iniciativa Avenger, llegó por fin la primera genial muestra del universo de cine que se estaba construyendo.</p>			               
  	"
 	);
+	$numeros = array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21);
+	$estrategias = array (
+	"Marvel buscaba ganar popularidad y aprobecho que los comics de Stan Lee estaban ganando popularidad y decidieron producir películas de los personajes de dichos comics.",
+	"La perfecta elaboracón de los tráilers también les ayudó bastante ya que gracias a ellos las personas quedaban ansiosas de ver la película.",
+	"Realizaron una investigación acerca de la percepción visual que generaban en una muestra de personas y resultó que el rojo se les hacía mas llamativo.",
+	"Gracias a los constantes ajustes que se han estado haciendo en la película para que esta de un impacto al publico es por lo que llegaron a ser tan exitosas.",
+	"Los gráficos desarrollados en las películas fueron muy expectaculares que casi a nadie se le había ocurrido y las diferentes maneras de mostrarlos era realmente destacable.",
+	"El doblaje fue otro de las causas de su gran éxito ya que los que interpretaban a los personajes era tan realista que emocionaba a las personas."	
+	);
 	//ENVIAR CORREO
 	/*
 	<div class="form-field">
@@ -292,7 +301,7 @@
 
 	   				<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">1</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[0];?></strong>
 	   				</div>
 
 	   				<div class="timeline-header">
@@ -309,7 +318,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">2</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[1];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -326,7 +335,7 @@
 
 	   				<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">3</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[2];?></strong>
 	   				</div>
 
 	   				<div class="timeline-header">
@@ -343,7 +352,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">4</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[3];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -359,7 +368,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">5</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[4];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -375,7 +384,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">6</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[5];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -391,7 +400,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">7</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[6];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -407,7 +416,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">8</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[7];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -423,7 +432,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">9</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[8];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -439,7 +448,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">10</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[9];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -455,7 +464,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">11</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[10];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -471,7 +480,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">12</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[11];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -487,7 +496,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">13</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[12];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -503,7 +512,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">14</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[13];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -519,7 +528,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">15</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[14];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -535,7 +544,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">16</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[15];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -551,7 +560,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">17</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[16];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -567,7 +576,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">18</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[17];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -583,7 +592,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">19</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[18];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -599,7 +608,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">20</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[19];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -615,7 +624,7 @@
 
 					<div class="timeline-ico">
 						<i class="fa fa-stack-2x"></i>
-						<strong class="fa-stack-1x">21</strong>
+						<strong class="fa-stack-1x"><?php echo $numeros[20];?></strong>
 					</div>
 
 					<div class="timeline-header">
@@ -870,7 +879,7 @@
    </section> <!-- /cta --> 
 
 	
-	<!-- services Section
+	<!-- ESTRATEGIAS
    ================================================== -->
 	<section id="services">
 
@@ -879,7 +888,7 @@
 		<div class="row section-intro">
    		<div class="col-twelve">
 
-   			<h5>Recaudación</h5>
+   			<h5>ESTRATEGIAS</h5>
    			<h1>¿Sabes cuánto recaudo Marvel con topas estas películas?</h1>
 
    			<p class="lead">Hasta el momento Marvel ha recaudado mas de 18 mil millones de dólares. </p>
@@ -896,9 +905,9 @@
 	      		<span class="icon"><i class="icon-earth"></i></span>            
 
 	            <div class="service-content">	
-	            	 <h3>Popularidad</h3>
+	            	<h3>Popularidad</h3>
 
-		            <p class="desc">Marvel buscaba ganar popularidad y aprobecho que los comics de Stan Lee estaban ganando popularidad y decidieron producir películas de los personajes de dichos comics 
+		            <p class="desc" align="justify"><?php echo $estrategias[0];?>
 	         		</p>
 	         		
 	         	</div> 	         	 
@@ -913,7 +922,7 @@
 
 	            	<h3>Tráilers</h3>  
 
-		            <p class="desc">La perfecta elaboracón de los tráilers también les ayudó bastante ya que gracias a ellos las personas quedaban ansiosas de ver la película
+		            <p class="desc" align="justify"><?php echo $estrategias[1];?>
 	         		</p>
 
 	            </div>	                          
@@ -928,7 +937,7 @@
 
 	            	<h3>Colores</h3>
 
-		            <p class="desc">Realizaron una investigación acerca de la percepción visual que generaban en una muestra de personas y resultó que el rojo se les hacía mas llamativo
+		            <p class="desc" align="justify"><?php echo $estrategias[2];?>
 	        			</p> 
 
 	            </div> 	            	               
@@ -943,7 +952,7 @@
 
 	            	<h3>Ajustes</h3>
 
-		            <p class="desc">Gracias a los constantes ajustes que se han estado haciendo en la película para que esta de un impacto al publico es por lo que llegaron a ser tan exitosas.
+		            <p class="desc" align="justify"><?php echo $estrategias[3];?>
 	         		</p> 
 	         		
 	            </div>                
@@ -958,7 +967,7 @@
 
 	            	<h3>Gráficos</h3>
 
-		            <p class="desc">Los gráficos desarrollados en las películas fueron muy expectaculares que casi a nadie se le había ocurrido y las diferentes maneras de mostrarlos era realmente destacable.
+		            <p class="desc" align="justify"><?php echo $estrategias[4];?>
 	        			</p> 
 
 	            </div>	               
@@ -973,7 +982,7 @@
 
 	            	 <h3>Doblaje</h3>
 
-		            <p class="desc">El doblaje fue otro de las causas de su gran éxito ya que los que interpretaban a los personajes era tan realista que emocionaba a las personas.
+		            <p class="desc" align="justify"><?php echo $estrategias[5];?>
 	        			</p> 
 	        			
 	            </div>	               

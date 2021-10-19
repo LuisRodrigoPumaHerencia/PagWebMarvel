@@ -1,0 +1,79 @@
+                    <h3>Popularidad</h3>
+
+		            <p class="desc">Marvel buscaba ganar popularidad y aprobecho que los comics de Stan Lee estaban ganando popularidad y decidieron producir películas de los personajes de dichos comics 
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>Tráilers</h3>  
+
+		            <p class="desc">La perfecta elaboracón de los tráilers también les ayudó bastante ya que gracias a ellos las personas quedaban ansiosas de ver la película
+	         		</p>
+
+	            </div>	                          
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>Colores</h3>
+
+		            <p class="desc">Realizaron una investigación acerca de la percepción visual que generaban en una muestra de personas y resultó que el rojo se les hacía mas llamativo
+	        			</p> 
+
+	            </div> 	            	               
+
+			   </div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>	              
+
+	            <div class="service-content">
+
+	            	<h3>Ajustes</h3>
+
+		            <p class="desc">Gracias a los constantes ajustes que se han estado haciendo en la película para que esta de un impacto al publico es por lo que llegaron a ser tan exitosas.
+	         		</p> 
+	         		
+	            </div>                
+
+				</div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-image"></i></span>	            
+
+	            <div class="service-content">
+
+	            	<h3>Gráficos</h3>
+
+		            <p class="desc">Los gráficos desarrollados en las películas fueron muy expectaculares que casi a nadie se le había ocurrido y las diferentes maneras de mostrarlos era realmente destacable.
+	        			</p> 
+
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+
+	            <div class="service-content">
+
+	            	 <h3>Doblaje</h3>
+
+		            <p class="desc">El doblaje fue otro de las causas de su gran éxito ya que los que interpretaban a los personajes era tan realista que emocionaba a las personas.
+	        			</p> 
